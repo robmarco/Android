@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P2 Fragments</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Sección 1</string>
+    <string name="title_section2">Sección 2</string>
+    <string name="title_section3">Sección 3</string>
+    <string name="title_section4">Sección 4</string>
+    <string name="fragment_text">
+        Esto es un fragment definido en una 
+        clase externa con su propio layout
+    </string>
+    <string name="tvText">
+        Práctica para trabajar con los fragments dentro de un slider
+        horizontal        
+    </string>
+    <string name="author">Roberto Marco Sánchez</string>
+
+</resources>

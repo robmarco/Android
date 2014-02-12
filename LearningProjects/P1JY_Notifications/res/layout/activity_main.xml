@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
+        android:padding="25dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/title"
+        android:textColor="#fff"
+        android:background="#ff2ac458"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIntro"
+        android:text="@string/intro"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#ff3f3f3f"
+        />
+    
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="@string/txt_name" />
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnMain"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnMain"
+            android:layout_gravity="center"
+            android:enabled="false" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnNext"
+            android:id="@+id/btnNext"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/tvLearn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/text_learn" 
+        android:textStyle="bold" />
+
+</LinearLayout>

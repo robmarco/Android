@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="message">Pulsar para demostración de IntentService</string>
+    <string name="app_name">IntentService</string>
+    <string name="IntentServiceButtonLabel">Ejecutar test IntentService Test (Buen diseño)</string>
+    <string name="MainThreadButtonLabel">Ejecutar en hilo principal (Mal diseño)</string>
+</resources>

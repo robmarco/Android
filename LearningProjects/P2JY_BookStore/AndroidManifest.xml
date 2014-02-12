@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.uem.p2_roberto_marco"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:name="es.uem.p2.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Main Activity -->
+        <activity
+            android:name="es.uem.p2.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Book Create Activity -->
+        <activity
+            android:name="es.uem.p2.activity.BookCreateActivity"
+            android:label="@string/book_activity"
+            android:parentActivityName="es.uem.p2.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.uem.p2.activity.MainActivity" />
+        </activity>
+        <!-- Book Show Activity -->
+        <activity
+            android:name="es.uem.p2.activity.BookShowActivity"
+            android:label="@string/book_show_activity"
+            android:parentActivityName="es.uem.p2.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.uem.p2.activity.MainActivity" />
+        </activity>
+        <!-- Book Edit Activity -->
+        <activity
+            android:name="es.uem.p2.activity.BookEditActivity"
+            android:label="@string/book_edit_activity"
+            android:parentActivityName="es.uem.p2.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.uem.p2.activity.MainActivity" />
+        </activity>
+        <!-- Contact Create Activity -->
+        <activity
+            android:name="es.uem.p2.activity.ContactCreateActivity"
+            android:label="@string/contact_activity"
+            android:parentActivityName="es.uem.p2.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.uem.p2.activity.MainActivity" />
+        </activity>
+        <!-- Contact Show Activity -->
+        <activity
+            android:name="es.uem.p2.activity.ContactShowActivity"
+            android:label="@string/contact_show_activity"
+            android:parentActivityName="es.uem.p2.activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.uem.p2.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="es.uem.p2.activity.ContactEditActivity"
+            android:label="@string/title_activity_contact_edit" >
+        </activity>
+        
+        <!-- Fragments -->
+        <activity android:name="es.uem.p2.fragment.BookFragment"></activity>
+        
+        
+    </application>
+
+</manifest>

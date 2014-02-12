@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Libros</string>
+    <string name="searchbar_title">Buscar</string>
+    <string name="hint_etTitle">Título</string>
+    <string name="hint_etAuthor">Autor</string>
+    <string name="hint_etIsbn">ISBN</string>
+    <string name="hint_search">Introduzca texto</string>
+    <string name="list_title">Título</string>
+    <string name="showbook_title">Título</string>
+    <string name="showbook_author">Autor</string>
+    <string name="showbook_isbn">ISBN</string>
+    <string name="title_activity_show_book">Ver Libro</string>
+    <string name="btEdit">Editar</string>
+    <string name="btRemove">Eliminar</string>
+    <string name="title_activity_search">Búsqueda</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_match">Búsqueda realizada: </string>
+
+</resources>

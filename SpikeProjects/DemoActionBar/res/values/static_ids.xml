@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="text_title"/>
+    <item type="id" name="btn_accept"></item>
+    <item type="id" name="edt_name"></item>
+    
+</resources>

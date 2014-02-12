@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context=".NotificationActivity" >
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
+        android:padding="25dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/title"
+        android:textColor="#fff"
+        android:background="#ff2ac458"
+        />
+    
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_result"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#ff3f3f3f"
+        />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="35dp"
+        android:textColor="#ff3f3f3f"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="24sp"
+        />
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"                
+        android:orientation="vertical" >
+        
+        <Button 
+	        android:id="@+id/btnAgain"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnAgain"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="30dp"
+        />
+        
+    	<Button 
+	        android:id="@+id/btnAgainST"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnAgainST"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="30dp"
+        />
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:text="@string/book_show_activity"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="22sp" 
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/book_title" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"     
+        />
+
+    <TextView
+        android:id="@+id/tvTitleShow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/book_author" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" 
+        />
+
+    <TextView
+        android:id="@+id/tvAuthorShow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btEditBook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEditBook" 
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        />
+    
+    <Button
+        android:id="@+id/btRemoveBook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRemoveBook" 
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

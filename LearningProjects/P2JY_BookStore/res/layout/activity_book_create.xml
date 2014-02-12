@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/tvBookCreate"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:text="@string/book_activity"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="22sp" 
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/book_hint_title" 
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/book_hint_author" 
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="30dp" 
+		android:layout_gravity="center"      
+        />
+
+    <Button
+        android:id="@+id/btAddBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAddBook" 
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

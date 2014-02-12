@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- En un array de strings se puede hacer referencia a un recurso
+    estos están en strings.xml  -->
+    <string-array name="main_list_items">
+        <item >@string/linear_xml_sample</item>
+        <item >@string/linear_code_sample</item>
+        <item >@string/relative_code_sample</item>
+    </string-array>
+    
+</resources>

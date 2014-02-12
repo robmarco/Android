@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<EditText 
+	    android:id="@+id/et_1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+	
+	<Button 
+	    android:id="@+id/bt_2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Mostrar diálogo" 
+	    android:layout_below="@id/et_1" />
+	
+	<ImageView
+	    android:id="@+id/iv_1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/ic_launcher"
+	    android:layout_below="@id/bt_2" />
+	
+	<TextView
+	    android:id="@+id/tv_1"
+	    android:layout_width="200dp"
+	    android:layout_height="wrap_content"
+	    android:text="Esto es un texto"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true" />
+
+	<Button
+	    android:id="@+id/bt_1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@id/tv_1"
+	    android:layout_alignLeft="@id/tv_1"
+	    android:text="Botón" />
+</RelativeLayout>

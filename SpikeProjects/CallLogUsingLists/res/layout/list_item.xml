@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:background="#fff"
+>
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingTop="4dp"
+	android:layout_weight="1"
+	>
+	<TextView
+	android:id="@+id/label1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:paddingLeft="10dip"
+	android:paddingTop="4dip"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#000"
+	/>
+	<TextView
+	android:id="@+id/label2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:paddingLeft="10dip"
+	android:paddingBottom="4dip"
+	android:textSize="14sp"
+	android:textColor="#000"
+	/>
+	<TextView
+	android:id="@+id/label3"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:paddingLeft="10dip"
+	android:paddingBottom="4dip"
+	android:textSize="14sp"
+	android:textColor="#000"
+	/>
+		</LinearLayout>
+	 <ImageView
+	android:id="@+id/icon"
+	android:layout_width="fill_parent"
+	android:paddingLeft="5dip"
+	android:paddingRight="5dip"
+	android:paddingTop="12dip"
+	android:paddingBottom="12dip"
+	android:layout_height="fill_parent"
+	android:layout_weight="4"
+	/>
+
+</LinearLayout>

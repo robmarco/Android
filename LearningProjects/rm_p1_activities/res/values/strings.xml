@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Práctica 1 - Roberto Marco</string>
+    <string name="action_settings">Configuración</string>
+    <string name="main_title">Clase 1</string>
+    <string name="main_text">
+        Esta práctica consiste en estudiar el ciclo de vida de una aplicación
+        Android y de invocar de diferentes formas un <b>intent</b>. 
+        \n\n
+        Los siguientes 
+        botones lanzan un intent para: <b>coger un contacto, ver un contacto, 
+        hacer una llamada, ver el log de llamadas, abrir una URL, abrir una
+        segunda actividad en mi app y abrir mapas</b>.
+    </string>
+
+</resources>

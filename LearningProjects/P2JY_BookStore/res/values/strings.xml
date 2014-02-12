@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P2 Libros</string>
+    <!-- String para titutlos -->
+    <string name="contact_activity">Añadir Contacto</string>
+    <string name="contact_show_activity">Ver Contacto</string>
+    <string name="contact_edit_activity">Editar Contacto</string>
+    <string name="book_activity">Añadir Libro</string>
+    <string name="book_show_activity">Ver Libro</string>
+    <string name="book_edit_activity">Editar Libro</string>
+    <!-- String para hints de editText -->
+    <string name="contact_hint_name">Introduzca un nombre</string>
+    <string name="contact_hint_phone">Introduzca un teléfono</string>
+    <string name="book_hint_title">Introduzca un título</string>
+    <string name="book_hint_author">Introduzca un autor</string>
+    <!-- String para botones -->
+    <string name="btnAddBook">Añadir libro</string>
+    <string name="btnEditBook">Editar libro</string>
+    <string name="btnRemoveBook">Eliminar libro</string>
+    <string name="btnAddContact">Añadir contacto</string>
+    <string name="btnEditContact">Editar contacto</string>
+    <string name="btnRemoveContact">Eliminar contacto</string>
+    <!-- String para TextView de show -->
+    <string name="book_title">Título del libro</string>
+    <string name="book_author">Autor o editor</string>
+    <string name="contact_name">Nombre del contact</string>
+    <string name="contact_phone">Teléfono</string>
+    <!-- String para ActionBar -->
+    <string name="action_new">Añadir</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <!-- String para Drawer -->
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Cerrar</string>
+    <!-- String para MainFragment -->
+    <string name="main_fragment_header">Práctica 2</string>
+    <string name="main_fragment_content">        El contenido de esta práctica está basado en lo aprendido en
+	    la sesión 2 de la asignatura de Android. \n\n
+	    La temática abordada es la siguiente: <i>vistas con adapters 
+	    (ListView y GridView), adapters, SQLite, fragments, 
+	    navegación con ActionBar y SlidingMenu.</i></string>
+    <string name="main_fragment_footer">Práctica realizada por Roberto Marco</string>
+    <!-- Los valores de la lista del main (llamados desde values/array -->
+    <string name="book_fragment_list">Libros</string>
+    <string name="contact_fragment_list">Contactos</string>
+    <string name="loan_fragment_list">Préstamos</string>
+    <!-- String para comprobaciones de campos -->
+    <string name="required_field">Campo requerido</string>
+    <string name="title_activity_contact_edit">ContactEditActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

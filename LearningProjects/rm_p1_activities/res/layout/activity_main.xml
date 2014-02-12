@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:text="@string/main_title" 
+       	android:background="@android:color/darker_gray"
+       	android:gravity="center"
+       	android:textSize="22sp"
+        />
+    
+    <TextView 
+        android:id="@+id/tvText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_text"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="20sp"  
+        android:layout_marginBottom="30sp"              
+        />
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:layout_gravity="center">          
+        <Button
+	        android:id="@+id/btCogerContact"
+	        android:layout_width="150sp"
+	        android:layout_height="wrap_content"
+	        android:text="Coger Contacto" />        
+        <Button
+	        android:id="@+id/btVerContact"
+	        android:layout_width="150sp"
+	        android:layout_height="wrap_content"
+	        android:text="Ver Contacto" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">        
+        <Button
+	        android:id="@+id/btLlamar"
+	        android:layout_width="150sp"
+	        android:layout_height="wrap_content"
+	        android:text="Llamar" />        
+        <Button
+	        android:id="@+id/btLogLlamadas"
+	        android:layout_width="150sp"
+	        android:layout_height="wrap_content"
+	        android:text="Log Llamadas" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">        
+        <Button
+	        android:id="@+id/btAbrirURL"
+	        android:layout_width="150sp"
+	        android:layout_height="wrap_content"
+	        android:text="Abrir URL" />        
+        <Button
+	        android:id="@+id/btAbrirActividad"
+	        android:layout_width="150sp"
+	        android:layout_height="wrap_content"
+	        android:text="Abrir Actividad" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">        
+        <Button
+	        android:id="@+id/btAbrirMaps"
+	        android:layout_width="150sp"
+	        android:layout_height="wrap_content"
+	        android:text="Abrir Maps" />        
+    </LinearLayout>    
+    
+</LinearLayout>

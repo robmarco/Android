@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_menu_items">
+        <item>@string/book_fragment_list</item>
+        <item>@string/contact_fragment_list</item>
+        <item>@string/loan_fragment_list</item>
+    </string-array>
+</resources>

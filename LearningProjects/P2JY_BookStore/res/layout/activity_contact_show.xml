@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:text="@string/contact_show_activity"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="22sp" 
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_name" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"     
+        />
+
+    <TextView
+        android:id="@+id/tvNameShow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_phone" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" 
+        />
+
+    <TextView
+        android:id="@+id/tvPhoneShow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btEditContact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEditContact" 
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        />
+    
+    <Button
+        android:id="@+id/btRemoveContact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRemoveContact" 
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

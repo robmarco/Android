@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_salir"
+          android:icon="@drawable/exit"
+          android:title="Salir" />   
+    <item android:id="@+id/menu_salir"
+          android:icon="@drawable/exit"
+          android:title="Entrar" /> 
+    <item android:id="@+id/menu_salir"
+          android:icon="@drawable/exit"
+          android:title="El rollo de siempre" />  
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robmarco</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title">Practica 1</string>
+    <string name="intro">        
+        Consiste en crear una actividad con un EditText en el que aparezca un nombre y un botón.
+        Cuando se pulsa sobre el botón se genera una notficación en la barra de notificaciones,
+        que al pulsarla lanza otra actividad en la que se dice Hola Texto introducido en la
+        actividad anterior.</string>
+    <string name="txt_name">Introduzca su nombre aquí</string>
+    <string name="btnMain">Notificación</string>
+    <string name="btnNext">Resultado</string>
+	<string name="txt_result">
+	    El valor pasado de la Actividad A a la Notificación, y de la Notificación a la Actividad B es:
+	</string>
+	<string	name="text_learn">¿Qué he aprendido?</string>
+	<string name="ed_error">Introduzca un valor</string>
+	<string name="btnAgain">Lanzar Standard</string>
+	<string name="btnAgainST">Lanzar Single Top</string>
+
+</resources>

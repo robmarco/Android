@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoLayout</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="linear_xml_title">LinearLayout definida en XML</string>
+    <string name="linear_xml_edt_hint">Introduce aquí tu nombre</string>
+    
+    <string name="linear_code_title">LinearLayout definida en Código</string>
+    <string name="linear_code_edt_hint">Introduce aquí tu nombre</string>
+    
+    <string name="relative_code_title">RelativeLayout definida en Código</string>
+    <string name="relative_code_edt_hint">Introduce aquí tu nombre</string>
+    
+    <string name="notification_template">Hola %1$s</string>
+    
+    <string name="push_it_to_next">Pulsa el botón para inicar la siguiente acitividad</string>
+    <string name="btn_accept">Aceptar</string>
+    <string name="error_field_name">Debes introducir tu nombre</string>
+    
+    <string name="notification_message">Tienes una notificación</string>
+
+    <!-- Los valores de la lista del main -->
+    <string name="linear_xml_sample">Ejemplo de LinearLayout (XML)</string>
+    <string name="linear_code_sample">Ejemplo de LinearLayout (Código)</string>
+    <string name="relative_code_sample">Ejemplo de RelativeLayout (Código)</string>
+
+</resources>

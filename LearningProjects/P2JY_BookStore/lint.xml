@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi" severity="ignore" />
+    <issue id="Recycle">
+        <ignore path="src/es/uem/p2/activity/MainActivity.java" />
+    </issue>
+</lint>

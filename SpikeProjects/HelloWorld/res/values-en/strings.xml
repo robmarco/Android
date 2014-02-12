@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Hola Mundo</string>
+    <string name="h_m">Hello Murcia!</string>
+    <string name="textohint">(Insert your name)</string>
+
+</resources>
