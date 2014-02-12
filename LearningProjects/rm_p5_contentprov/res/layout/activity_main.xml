@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/background_light"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="12dp"
+        >
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_etTitle"            
+            />
+
+        <EditText 
+            android:id="@+id/etAuthor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_etAuthor"
+            />    
+            
+        <EditText 
+            android:id="@+id/etIsbn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="@string/hint_etIsbn"
+            />    
+            
+        <Button 
+            android:id="@+id/btSend"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Enviar"
+            android:background="#a2cff0"
+            android:textColor="#fff"
+            android:enabled="true"
+            />
+                
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvBooks"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" 
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+        >
+    </ListView>
+    
+</LinearLayout>
