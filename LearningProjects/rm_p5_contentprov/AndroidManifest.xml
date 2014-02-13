@@ -41,9 +41,8 @@
         </activity>
         
         <provider 
-            android:name="BooksProvider"
-            android:authorities="com.robmarco.contentprovider" />
-            
+            android:name="BookProvider"
+            android:authorities="com.robmarco.contentprovider" />            
         
         <meta-data android:name="android.app.default_searchable"
                    android:value="com.robmarco.activity.SearchActivity" />
