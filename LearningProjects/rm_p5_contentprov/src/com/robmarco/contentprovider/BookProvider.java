@@ -15,7 +15,7 @@ public class BookProvider extends ContentProvider {
 	private static final int ONEROW = 2;
 	private DBHelper mDBHelper;
 	
-	private static final String mUri = "com.robmarco.contentprovider.test";
+	private static final String mUri = "com.robmarco.contentprovider";
 	public static final Uri CONTENT_URI = Uri.parse(mUri);
 	private static final UriMatcher sUriMatcher;
 		
