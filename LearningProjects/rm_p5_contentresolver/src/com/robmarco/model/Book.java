@@ -1,6 +1,9 @@
 package com.robmarco.model;
 
-public class Book {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class Book implements Parcelable {
 	
 	private int id;
 	private String title;
@@ -43,5 +46,41 @@ public class Book {
 	public void setId(int id) {
 		this.id = id;
 	}
+	
+
+	/**
+	 * Implemented Methods for Parcelable
+	 * @see android.os.Parcelable 
+	 **/	
+	@Override
+	public int describeContents() {
+		return 0;
+	}
+
+	@Override
+	public void writeToParcel(Parcel dest, int flags) {
+		dest.writeInt(id);
+		dest.writeString(title);
+		dest.writeString(author);
+		dest.writeString(isbn);
+	}
+	
+	private Book(Parcel in) {
+        id 		= in.readInt();
+        title 	= in.readString();
+        author 	= in.readString();
+        isbn 	= in.readString();
+    }
+	
+	public static final Parcelable.Creator<Book> CREATOR
+			= new Parcelable.Creator<Book>() {
+		public Book createFromParcel(Parcel in) {
+			return new Book(in);
+		}
+
+		public Book[] newArray(int size) {
+			return new Book[size];
+		}
+	};
 
 }

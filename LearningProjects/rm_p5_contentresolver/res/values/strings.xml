@@ -2,6 +2,15 @@
 <resources>
 
     <string name="app_name">Libros - Resolver</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configuración</string>
+    <string name="main_title">Lista de Libros del ContentProvider</string>
+    <string name="title_activity_show">Ver Libro</string>
+    
+    <string name="etTitle">Título</string>
+    <string name="etAuthor">Autor</string>
+    <string name="etIsbn">ISBN</string>
+    
+    <string name="btEdit">Editar</string>
+    <string name="btRemove">Eliminar</string>
 
 </resources>

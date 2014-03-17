@@ -1,18 +1,16 @@
 package com.robmarco.resolver;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.robmarco.model.Book;
 
 import android.content.ContentResolver;
+import android.content.ContentUris;
 import android.database.Cursor;
 import android.net.Uri;
 
 public class BookResolver {
 
-	private static final String uri = "content://com.robmarco.provider.bookprovider/books";
-	private static final Uri 	CONTENT_URI = Uri.parse(uri);	
+	public static final String URI = "content://com.robmarco.provider.bookprovider/books";
+	private static final Uri 	CONTENT_URI = Uri.parse(URI);	
 	private static final String KEY_ID 	= "_id";
 	private static final String TITLE 	= "title";
 	private static final String AUTHOR 	= "author";
@@ -34,36 +32,46 @@ public class BookResolver {
 		return projection;
 	}
 
-	private Cursor query() {
+	public Cursor query() {
 		String[] projection = setProjection();
-		return mContentResolver.query(CONTENT_URI, projection, null, null, null);
+		Cursor c = mContentResolver.query(CONTENT_URI, projection, null, null, null);
+		return c;
+		
+	}
+	
+	public Cursor queryID(int id) {
+		String[] projection = setProjection();
+		Uri uri = ContentUris.withAppendedId(CONTENT_URI, id);
+		Cursor c = mContentResolver.query(uri, projection, null, null, null);		
+		return c;		
 	}
 
-	public List<Book> selectAllBooks() {
+	public Book selectBook(Cursor c) {
+		Book book = new Book();
 		
-		List<Book> bookList = new ArrayList<Book>();
-		Cursor c = query();
-		
-		if (c.moveToFirst()) {
-			String title;
-			String author;
-			String isbn;
-			
-			int colTitle 	= c.getColumnIndex(TITLE);
-			int colAuthor 	= c.getColumnIndex(AUTHOR);
-			int colIsbn		= c.getColumnIndex(ISBN);
-			
-			do { 
-				title 	= c.getString(colTitle);
-				author 	= c.getString(colAuthor);
-				isbn 	= c.getString(colIsbn);	
-				
-				bookList.add(new Book(title, author, isbn));				
-				
-			} while (c.moveToNext());	
+		if (c == null || c.getCount() != 1) {
+			return null;
 		}
 		
-		return bookList;
+		c.moveToFirst();
+		int colId 		= c.getColumnIndex(KEY_ID);
+		int colTitle 	= c.getColumnIndex(TITLE);
+		int colAuthor 	= c.getColumnIndex(AUTHOR);
+		int colIsbn		= c.getColumnIndex(ISBN);
+		
+		int id = c.getInt(colId);
+		String title = c.getString(colTitle);;
+		String author = c.getString(colAuthor);;
+		String isbn = c.getString(colIsbn);
+		
+		book.setId(id);
+		book.setTitle(title);
+		book.setAuthor(author);
+		book.setIsbn(isbn);
+		
+		c.close();
+		
+		return book;
 	}
 	
 }
